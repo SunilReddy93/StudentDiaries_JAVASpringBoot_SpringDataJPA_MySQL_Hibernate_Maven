@@ -1,0 +1,53 @@
+
+#dashboard{
+    margin-right: 63%;
+}
+
+
+
+#profilename{
+
+    text-decoration: none;
+}
+
+#profilename h3{
+    color: black !important;
+    font-weight: bold;
+
+}
+
+.card{
+    padding: 1em;
+}
+
+.card-title{
+    padding: 1em;
+    font-weight: bold;
+}
+.card-text{
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+#image{
+    padding: 1em;
+    height: 60%;
+
+}
+
+#teacherimage{
+    margin-top: 77px;
+    margin-left: 20px;
+    width: 150px;
+    height: 305px;
+    border-radius: 50%;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.list-group{
+    padding-top: 1em;
+}
+

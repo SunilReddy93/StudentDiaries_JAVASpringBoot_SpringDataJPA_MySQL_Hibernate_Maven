@@ -1,0 +1,14 @@
+.row1{
+    padding: 1em;
+    font-weight: bold;
+    font-size: 15px;
+    color: #535c68;
+}
+
+.info{
+    padding: 1em;
+}
+
+#goback{
+    margin-left: 45%;
+}

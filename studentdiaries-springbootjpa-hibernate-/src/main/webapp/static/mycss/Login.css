@@ -1,0 +1,59 @@
+.caption {
+    position: absolute;
+    top: 0%;
+    text-align: left;
+    margin: 1em;
+    width: 100%;
+    font-size: 20px;
+}
+
+.loginform img{
+    position: relative;
+}
+
+.loginform{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+    padding: 2em;
+}
+
+.innerform{
+    
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.final p{
+    font-size: 15px;
+}
+
+.lastdiv{
+    float: left;
+    font-size: 20px;
+}
+
+.lastdiv2{
+    float: right;
+
+}
+
+.lastdiv a{
+    text-decoration: none;
+}
+
+.forget{
+    text-align: right;
+    
+}
+
+.forget a{
+    text-decoration: none;
+}
+
+.signupyet{
+    text-align: left;
+}
+
+#error{
+    color: red;
+    margin-left: 43%;
+}

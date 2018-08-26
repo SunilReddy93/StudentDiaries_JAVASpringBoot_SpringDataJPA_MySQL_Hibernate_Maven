@@ -1,0 +1,23 @@
+.list-group-item{
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+}
+
+#header{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+    padding: 2em;
+
+}
+
+#table-container{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+    padding: 2em;
+
+}
+
+.feedback-form{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+    padding: 2em;
+
+}

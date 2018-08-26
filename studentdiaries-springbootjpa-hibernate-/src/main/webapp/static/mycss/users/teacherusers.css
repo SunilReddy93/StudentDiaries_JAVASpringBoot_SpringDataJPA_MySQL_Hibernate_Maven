@@ -1,0 +1,41 @@
+
+a:link{
+    color: #3892c5;
+}
+
+.material-icons{
+    font-size: 36px;
+    padding-right: 20px;
+    color: #3892c5;
+}
+
+
+
+.fafaicons{
+    font-size: 35px;
+    color: #3892c5;
+    padding-right: 20px;
+
+}
+
+
+.fafaicons h4{
+    margin-right: 170px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#header{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.table{
+    overflow-y: hidden;
+
+}
+
+
+
+

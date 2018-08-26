@@ -1,0 +1,16 @@
+.usertypes .fa{
+    font-size:200px;
+    color:#3892c5;  
+}
+
+.usertypes{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+    padding: 2em;
+}
+
+.usertypes a{
+    text-decoration-line: none;
+}
+.usertypes h3{
+    color: black;
+}

@@ -1,0 +1,156 @@
+/*
+#main-body{
+    background: #8e9eab;  /* fallback for old browsers */
+  /*  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+   /* background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*
+}
+*/
+#body-row {
+    margin-left:0;
+    margin-right:0;
+
+
+}
+#sidebar-container {
+    min-height: 100vh;
+    /*background-color: #84817a;*/
+    padding: 0;
+    position: fixed;
+    width: 260px;
+    overflow-x: hidden;
+
+}
+
+#main-page{
+    margin-left: 355px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+
+
+
+
+/* Sidebar sizes when expanded and expanded */
+
+
+.sidebar-expanded {
+    width: 230px;
+
+}
+.sidebar-collapsed {
+    width: 60px;
+}
+
+
+
+
+
+
+/* Menu item*/
+#sidebar-container .list-group a {
+    height: 50px;
+    color: white;
+
+    border-width: 1px;
+    border-color: #192a56;
+
+}
+
+/* Submenu item*/
+#sidebar-container .list-group .sidebar-submenu a {
+    height: 45px;
+    padding-left: 30px;
+
+    border-width: 1px;
+    border-color: #192a56;
+
+}
+.sidebar-submenu {
+    font-size: 0.9rem;
+
+}
+
+/* Separators */
+.sidebar-separator-title {
+  /*  background-color: #84817a;*/
+    height: 35px;
+
+    border-width: 1px;
+    border-color: #192a56;
+
+}
+.sidebar-separator {
+   /*background: #84817a;**/
+    height: 25px;
+
+    border-width: 1px;
+    border-color: #192a56;
+
+}
+.logo-separator {
+   /* background-color: #84817a;*/
+    height: 60px;
+
+    border-width: 1px;
+    border-color: #192a56;
+
+}
+
+/* Closed submenu icon */
+#sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+    content: " \f0d7";
+    font-family: FontAwesome;
+    display: inline;
+    text-align: right;
+    padding-left: 10px;
+
+
+}
+/* Opened submenu icon */
+#sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+    content: " \f0da";
+    font-family: FontAwesome;
+    display: inline;
+    text-align: right;
+    padding-left: 10px;
+
+}
+
+
+.countcard{
+
+    border-width: 1px;
+
+    border-color: #192a56;
+    overflow: hidden;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    opacity: 0.6;
+
+}
+
+.card-body {
+
+    color: #ffffff;
+    opacity: unset;
+}
+
+.card-body h1{
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    #sidebar-container {position: absolute; width: 0;}
+    #main-page{position : absolute; margin-left: 0;}
+
+}
+
+@media screen and (max-width: 800px) {
+    #sidebar-container {position: absolute; width: 0;}
+    #main-page{position : absolute; margin-left: 0;}
+
+}

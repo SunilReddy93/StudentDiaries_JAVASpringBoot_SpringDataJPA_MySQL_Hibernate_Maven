@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.fa.fa-navicon {
+  color:white;
+}
+
+.navbar-brand span{
+  color: #3892c5;
+  font-weight: bolder;
+}
+
+
+
+body{
+  font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+	color: #303030;
+  margin-top: 80px;
+}
+
+li #fullname{
+  color: #3892c5!important;
+  font-weight: bold;
+}
+
+#navbarsExampleDefault a{
+	color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.navbar-brand
+{
+  color: black !important;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navbar-brand span{
+  color: #3892c5;
+  font-weight: bolder;
+}
+
+#testimonial{
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#testimonial p{
+  font-size: 20px;
+}
+
+#testimonial p.customer{
+  font-weight: bold;
+  color: #666;
+}
+
+#info .info-right{
+  margin-top: 70px;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+    margin-top: 200px;
+
+}
+.caption{
+  
+  
+  color:black;
+
+  font-weight: bold;
+}
+
+#features h1{
+  font-size:35px;
+  margin:0;
+  padding-bottom:10px;
+}
+
+#features p{
+  color:#888;
+  margin:0;
+  margin-bottom:40px;
+}
+
+#features .fa{
+  font-size:60px;
+  color:#3892c5;
+
+}
+
+.features-content a{
+  color: black;
+
+}
+
+
+.features-content h1{
+  font-weight: bold;
+  
+}
+
+.info-content h1{
+  font-weight: bold;
+  
+}
+
+#footer p{
+  padding: 10px;
+}
+
+/*Animate page load*/
+.animate-bottom{
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+
+/*Page Loader CSS*/
+div#load_screen{
+  background: #ffffff;
+  opacity: 1;
+  position: fixed;
+  z-index:10;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+div#load_screen > div#loading{
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+
+
+  width:120px;
+  height:120px;
+  margin: 300px auto;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/*Calendar Responsive*/
+@media screen and (max-width: 900px){
+  .responsiveCal {
+
+    position: relative; padding-bottom: 75%; width: 50%; height: 0; overflow: hidden;
+
+  }
+
+  .responsiveCal iframe {
+
+    position: absolute; top:0; left: 0; width: 100%; height: 100%;
+
+  }
+}
